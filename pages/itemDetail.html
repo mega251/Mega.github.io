@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css file -->
+    <link rel="stylesheet" href="../styles/build.css" />
+    <link rel="stylesheet" href="../styles/items.css" />
+    <link rel="stylesheet" href="../styles/modal.css" />
+    <link rel="stylesheet" href="../styles/form.css" />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- toastify -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/82531a8705.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>وردەکاری کاڵا</title>
+    <style>
+      /* CSS for scroll bar */
+      #itemContainer {
+        overflow-y: scroll;
+        max-height: 90%; /* Adjust the maximum height as needed */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="itemContainer"></div>
+
+    <div class="modal" id="modal-one">
+      <div class="modal-bg modal-exit"></div>
+      <div class="modal-container">
+        <form id="form" style="direction: rtl" class="order_form">
+          <div>
+            <label>ژمارەی تەلەفۆن</label>
+            <input id="phoneNumber" required type="tel" minlength="11" />
+          </div>
+          <div>
+            <label>ناونیشان</label>
+            <input id="address" />
+          </div>
+          <div>
+            <label>تێبینی</label>
+            <textarea id="note" rows="2"></textarea>
+          </div>
+          <button type="submit" style="direction: rtl" class="order_it">
+            داوای بکە !
+          </button>
+          <br><br><br>
+        </form>
+        <button class="modal-close modal-exit">X</button>
+      </div>
+    </div>
+    <script src="../js/main.js"></script>
+    <script src="../js/itemsDetail.js"></script>
+  </body>
+</html>

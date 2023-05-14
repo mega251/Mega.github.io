@@ -1,0 +1,227 @@
+{
+  "items": [
+
+    {
+      "id": "322",
+      "name": "HP Pavilion",
+      "price": "1190.00$",
+      "image": "/images/pav.png",
+      "brand": "HP",
+      "date": "2022",
+      "category": "game",
+      "description": " زانیاری کۆمپیتەرەکە: لە 1700$ بووە 1190$ \n Code:322 Orignal Price:  1190$😍🔥 \n Model: HP Pavilion  Gaming Laptop USED \n⚙️ PROCESSOR: Intel Core i5 9300H  2.4Ghz \n⚙️ Ram: 16 GB DDR4 \n⚙️ GPU:NIVIDIA GeForce GTX 1050 \n⚙️ Resolution:  Full HD + HDR \n⚙️ Hard Drive: 512 gb SSD \n⚙️ Screen 15.3 Inch 60 Hz \n⚙️ OPERATING SYSTEM Windows 10 Original Back light Keyboard "
+    },
+    {
+      "id": "876",
+      "name": "HP Omen",
+      "price": "910.00$",
+      "image": "/images/hp.png",
+      "brand": "HP",
+      "date": "2022",
+      "category": "game",
+      "description": "✅Ram: 16GB DDR4 ڕام شازدە گێگا ✅Hard: 512GB NVMe پێنجسەدو داونزە گێگا هارد ✅GPU 1: 8GB intel Graphics كارت  شاشەی داخیلی ✅GPU 2: 6GB RTX 2060 کارت شاشەی خاریجی ✅Screen: 17.3 144hz ’FHDکیبۆرد فوول ئاڕ جی بی"
+    },
+    {
+      "id": "65",
+      "name": "MacBook Pro 2020",
+      "price": "1200.00$",
+      "image": "/images/ma.png",
+      "brand": "Apple",
+      "date": "2020",
+      "category": "office",
+      "description": "Orignal Price:  1000$😍🔥 Model: Apple MacBook Pro ⚙️ Processor: Intel Core i7 ⚙️ RAM: 16 GB LPDDR4X ⚙️ GPU: AMD Radeon Pro 5600M ⚙️ Resolution: Retina display with True Tone ⚙️ Storage: 512 GB SSD ⚙️ Screen: 15.6-inch Retina display ⚙️ Operating System: macOS Mojave ⚙️ Backlit Keyboard: Yes"
+    },
+    {
+      "id": "463",
+      "name": "MacBook Air 2020",
+      "price": "1000.00$",
+      "image": "/images/apple.png",
+      "brand": "Apple",
+      "date": "2020",
+      "category": "office",
+      "description": "Orignal Price:  1200$😍🔥 Model: Apple MacBook Air ⚙️ Processor: Apple M1 chip with 8-core CPU and 8-core GPU ⚙️ RAM: 16 GB unified memory ⚙️ GPU: Apple 8-core GPU ⚙️ Resolution: Retina display with True Tone ⚙️ Storage: 1 TB SSD ⚙️ Screen: 13.3-inch Retina display ⚙️ Operating System: macOS Monterey ⚙️ Backlit Keyboard: Yes ⚙️ Touch ID: Yes ⚙️ Thunderbolt/USB 4 ports: 2 ⚙️ Battery Life: Up to 18 hours ⚙️ Weight: 2.8 pounds (1.29 kg) ⚙️ Color: Space Gray"
+    },
+    {
+      "id": "431",
+      "name": "HP Elitebook",
+      "price": "185.00$",
+      "image": "/images/hpe.png",
+      "brand": "HP",
+      "date": "2021",
+      "category": "two",
+      "description": "کارتۆنى لەگەڵە  زۆر زۆر خاوێنن ✅ HP EliteBook 1030 X360 G3 touch ✅ Intel Core i5-generation 8 جیلى هەشتەم ✅ 8 gb RAM  DDR4 ✅ 256 GB PCIe NVMe SSD ✅ Screen size 13.3, Touchscreen x360 بە ٣٦٠ پلە ئەخولێتەوە ✅GPU: 4GB intel"
+    }, 
+    {
+      "id": "413",
+      "name": "Lenovo Thinkpad",
+      "price": "299.99$",
+      "image": "/images/x260.png",
+      "brand": "Lenovo",
+      "date": "2021",
+      "category": "two",
+      "description": "✅Lenovo ThinkPad T480 Touch مۆدێلى لاپتۆپەکە ✅CPU core i7  خێرایى کۆمپیوتەرەکە جیلى هەشتەم ✅Ram 24 GB DDR4 ئەتوانرێت زیادى بکرێت قەبارەى رامەکەى ✅Hard 512 GB SSD NVMe2 قەبارە و جۆرى هاردەکەى ✅Intel 12 intel GB کارت شاشەى داخلییەکەى ✅14.1 inch Full HD قەبارەى شاشەکەى-شاشە لەمس ✅HDMI هەیە ✅VGA هەیە ✅backlight"
+    },
+    {
+      "id": "443",
+      "name": "Radeon RX 570",
+      "price": "298.00$",
+      "image": "/images/1024.png",
+      "brand": "AMD",
+      "date": "2021",
+      "category": "GPU",
+      "description": "Model: AMD Radeon RX 570 ⚙️ GPU Architecture: Polaris 20 ⚙️ Stream Processors: 2048 ⚙️ Core Clock: Up to 1244 MHz ⚙️ Memory: 4 GB GDDR5 ⚙️ Memory Clock: 7 Gbps ⚙️ Memory Interface: 256-bit ⚙️ Max Resolution: 7680x4320 ⚙️ DirectX Support: DirectX 12 ⚙️ Vulkan Support: Yes ⚙️ OpenGL Support: OpenGL 4.5 ⚙️ DisplayPort: 3 x DisplayPort 1.4 ⚙️ HDMI: 1 x HDMI 2.0b ⚙️ Power Consumption: 150W ⚙️ Recommended PSU: 450W ⚙️ Dimensions: Dual-slot design ⚙️ Cooling: Dual fan ⚙️ Crossfire Support: Yes ⚙️ Virtual Reality (VR) Ready: Yes"
+    },
+    {
+      "id": "4123",
+      "name": "Radeon RX 5700 XT",
+      "price": "399.99$",
+      "image": "/images/r.png",
+      "brand": "AMD",
+      "date": "2021",
+      "category": "two",
+      "description": "The GeForce RTX 3080 is powered by Ampere—NVIDIA’s 2nd gen RTX architecture. It’s built with enhanced RT Cores and Tensor Cores, new streaming multiprocessors, and superfast G6X memory for an amazing gaming experience."
+    }, 
+    {
+      "id": "3",
+      "name": "RTX 3070",
+      "price": "847.00$",
+      "date": "2022",
+
+      "category": "GPU",
+      "image": "/images/g.png",
+      "brand": "Nvidia",
+      "description":"Model: NVIDIA GeForce RTX 3070 ⚙️ GPU Architecture: Ampere ⚙️ CUDA Cores: 5888 ⚙️ Boost Clock: Up to 1725 MHz ⚙️ Memory: 8 GB GDDR6 ⚙️ Memory Clock: 14 Gbps ⚙️ Memory Interface: 256-bit ⚙️ Max Resolution: 7680x4320 ⚙️ DirectX Support: DirectX 12 Ultimate ⚙️ Vulkan Support: Yes ⚙️ OpenGL Support: OpenGL 4.6 ⚙️ DisplayPort: 3 x DisplayPort 1.4a ⚙️ HDMI: 1 x HDMI 2.1 ⚙️ Power Consumption: 220W ⚙️ Recommended PSU: 650W ⚙️ Dimensions: Dual-slot design ⚙️ Cooling: Dual fan ⚙️ Ray Tracing: Yes ⚙️ DLSS (Deep Learning Super Sampling): Yes ⚙️ Virtual Reality (VR) Ready: Yes"
+    },
+    {
+      "id": "1",
+      "name": "RTX 3080",
+      "price": "1080.00$",
+      "image": "/images/item.png",
+      "brand": "Nvidia",
+      "date": "2022",
+      "category": "GPU",
+      "description": "The GeForce RTX 3080 is powered by Ampere—NVIDIA’s 2nd gen RTX architecture. It’s built with enhanced RT Cores and Tensor Cores, new streaming multiprocessors, and superfast G6X memory for an amazing gaming experience."
+    },
+    {
+      "id": "2",
+      "name": "RTX 3090",
+      "price": "1499.99$",
+      "brand": "Nvidia",
+      "image": "/images/item.png",
+      "date": "2022",
+      "category": "GPU",
+      "description": "The GeForce RTX 3090 is powered by Ampere—NVIDIA’s 2nd gen RTX architecture. It’s built with enhanced RT Cores and Tensor Cores, new streaming multiprocessors, and superfast G6X memory for an amazing gaming experience."
+    },
+ 
+    {
+      "id": "4",
+      "image": "/images/item.png",
+      "name": "RTX 3060 Ti",
+      "price": "399.99",
+      "date": "2021",
+
+      "category": "GPU",
+      "brand": "Nvidia",
+      "description": "The GeForce RTX 3060 Ti is powered by Ampere—NVIDIA’s 2nd gen RTX architecture. It’s built with enhanced RT Cores and Tensor Cores, new streaming multiprocessors, and superfast G6X memory for an amazing gaming experience."
+    },
+    {
+      "id": "5",
+      "name": "RTX 3060",
+      "price": "299.99",
+      "date": "2021",
+
+      "category": "GPU",
+      "brand": "Nvidia",
+      "image": "/images/item.png",
+      "description": "The GeForce RTX 3060 is powered by Ampere—NVIDIA’s 2nd gen RTX architecture. It’s built with enhanced RT Cores and Tensor Cores, new streaming multiprocessors, and superfast G6X memory for an amazing gaming experience."
+    },
+    {
+      "id": "6",
+      "name": "Corsair 16gb 3200mhz",
+      "price": "99.99",
+      "date": "2019",
+
+      "category": "RAM",
+      "brand": "Corsair",
+      "image": "/images/item.png",
+      "description": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 DRAM 3200MHz C16 Desktop Memory Kit - Black"
+    },
+    {
+      "id": "7",
+      "name": "b450m",
+      "price": "99.99",
+      "date": "2018",
+
+      "category": "MOTHERBOARD",
+      "brand": "msi",
+      "image": "/images/item.png",
+      "description": "msi description"
+    },
+    {
+      "id": "8",
+      "name": "b350m",
+      "price": "89.99",
+      "category": "MOTHERBOARD",
+      "date": "2016",
+
+      "brand": "msi",
+      "image": "/images/item.png",
+      "description": "msi description"
+    },
+    {
+      "id": "9",
+      "name": "i5 9600k",
+      "price": "159.99",
+      "category": "cpu",
+      "date": "2019",
+
+      "brand": "intel",
+      "image": "/images/item.png",
+      "description": "intel description"
+    },
+    {
+      "id": "10",
+      "name": "xigmatek auro",
+      "date": "2015",
+
+      "price": "159.99",
+      "category": "case",
+      "brand": "xigmatek",
+      "image": "/images/item.png",
+      "description": "case description"
+    },
+    {
+      "id": "11",
+      "name": "samsung 980 pro",
+      "price": "259.99",
+      "category": "storage",
+      "date": "2022",
+
+      "brand": "samsung",
+      "image": "/images/item.png",
+      "description": "case description"
+    },
+    {
+      "id": "12",
+      "name": "Benq q418 144hz",
+      "price": "359.99",
+      "category": "monitor",
+      "date": "2020",
+
+      "brand": "benq",
+      "image": "/images/item.png",
+      "description": "monitor description"
+    },
+    {
+      "id": "13",
+      "name": "cooler master 650w",
+      "price": "159.99",
+      "category": "psu",
+      "date": "2017",
+
+      "brand": "cooler master",
+      "image": "/images/item.png",
+      "description": "psu description"
+    }
+  ]
+}

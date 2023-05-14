@@ -1,0 +1,37 @@
+.order_form {
+  display: flex;
+  align-items: flex-start;
+  min-width: 100%;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+label {
+  display: block;
+  padding: 0.2rem;
+}
+input {
+  background: #2d2e32;
+  width: 15rem;
+  height: 1.5rem;
+  border-radius: 0.4vmax;
+  border: none;
+  text-align: right;
+  padding: 0 1rem;
+  outline: none;
+  color: #d9d9d9;
+  font-size: 1rem;
+}
+textarea {
+  width: 40rem;
+  height: 10rem;
+  background: #2d2e32;
+  border-radius: 0.4vmax;
+  border: none;
+  text-align: right;
+  padding: 1rem;
+  font-size: 0.9rem;
+  outline: none;
+  color: #d9d9d9;
+  resize: none;
+}

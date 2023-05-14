@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css file -->
+    <link rel="stylesheet" href="../styles/items.css" />
+    <!-- google font link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Cairo"
+    />
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/82531a8705.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>کاڵاکان</title>
+  </head>
+
+  <body>
+    <!-- --------------- Main --------------- -->
+    <main>
+      <!-- ------------ Left ------------ -->
+      <section id="left">
+        <div class="search">
+          <input
+            onchange="handleSearch()"
+            id="search"
+            type="text"
+            placeholder="گەڕان "
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div id="items" class="items"></div>
+      </section>
+
+      <!-- ------------ Right ------------ -->
+      <section id="right">
+        <h2>لاپتۆپ</h2>
+        <span k>
+          <label
+            ><input name="game" type="checkbox" />
+            <h3>گەیمینگ</h3>
+          </label>
+          <label
+            ><input name="office" type="checkbox" />
+            <h3>ئۆفیس</h3>
+        </label>
+          <label>
+            <input name="two" type="checkbox" />
+            <h3>دەستی دوو</h3>
+          </label>
+        </span>
+        <hr />
+        <h2>پارچە</h2>
+        <span k>
+          <label
+            ><input name="cpu" type="checkbox" />
+            <h3>CPU</h3>
+          </label>
+          <label
+            ><input name="gpu" type="checkbox" />
+            <h3>GPU</h3>
+          </label>
+          <label>
+            <input name="ram" type="checkbox" />
+            <h3>RAM</h3>
+          </label>
+          <label
+            ><input name="psu" type="checkbox" />
+            <h3>PSU</h3>
+          </label>
+          <label
+            ><input name="motherboard" type="checkbox" />
+            <h3>Motherboard</h3>
+          </label>
+          <label>
+            <input name="storage" type="checkbox" />
+            <h3>Storage</h3>
+          </label>
+          <label
+            ><input name="case" type="checkbox" />
+            <h3>Case</h3>
+          </label>
+          <label
+            ><input name="monitor" type="checkbox" />
+            <h3>Monitor</h3>
+          </label>
+          <label>
+            <input name="keyboard" type="checkbox" />
+            <h3>Keyboard & Mouse</h3>
+          </label>
+          <label
+            ><input name="headset" type="checkbox" />
+            <h3>Headset</h3>
+        </label>
+        </span>
+        <hr />
+
+        <h2>بەروار</h2>
+        <div class="range_parent">
+          <input
+            id="dateRange"
+            type="range"
+            onchange="onDateChange()"
+            min="2010"
+            0
+            max="2023"
+            100
+            step="1"
+            1
+            value="2023"
+            data-orientation="vertical"
+            horizontal
+          />
+          <span id="dateLabel">2023</span>
+        </div>
+        <hr />
+        <h2>نرخ</h2>
+        <div class="range_parent">
+          <input
+            id="priceRange"
+            type="range"
+            onchange="onPriceChange()"
+            min="10"
+            0
+            max="2000"
+            100
+            step="10"
+            1
+            value="2000"
+            data-orientation="vertical"
+            horizontal
+          />
+          <span id="priceLabel">$2000</span>
+        </div>
+      </section>
+    </main>
+    <script src="../js/main.js"></script>
+    <script src="../js/items.js"></script>
+  </body>
+</html>

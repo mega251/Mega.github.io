@@ -1,0 +1,389 @@
+@font-face {
+  font-family: "fnormal";
+  src: url("../fonts/Rabar_021.ttf");
+}
+
+@font-face {
+  font-family: "flight";
+  src: url("../fonts/Rabar_040.ttf");
+}
+
+@font-face {
+  font-family: "fbold";
+  src: url("../fonts/Rabar_039_bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: fnormal;
+  user-select: none;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7aae32;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5d950e;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+/*--------------- header ---------------*/
+header {
+  width: 100%;
+  height: 12%;
+  background: #1f1f1f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 10rem;
+}
+
+header > img {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+header > nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  z-index: 555;
+}
+
+header > nav > i {
+  color: #70ab1e;
+  font-size: 1.5rem;
+  display: none !important;
+  cursor: pointer;
+}
+
+header > nav > ul {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  list-style: none;
+  padding: none;
+}
+
+header > nav > ul > i {
+  color: #fff;
+  display: none !important;
+}
+
+header > nav > ul > li > a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
+/*--------------- Main ---------------*/
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #2d2e32;
+  flex-direction: row;
+  padding: 1rem 8rem;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  background: #2d2e32;
+  font-size: 18px;
+  color: #fff;
+  border-collapse: collapse;
+}
+
+th {
+  height: 3rem;
+}
+
+th:nth-child(1) {
+  width: 15%;
+}
+
+th:nth-child(2) {
+  width: 70%;
+}
+
+th:nth-child(3) {
+  width: 15%;
+}
+
+td {
+  height: 5rem;
+  text-align: center;
+  font-family: "Cairo", sans-serif;
+}
+
+tr:nth-child(2) {
+  border-top: 3px solid gray;
+}
+
+tr {
+  border-bottom: 1px solid gray;
+}
+
+td:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+td > img {
+  width: 4rem;
+  background: #fff;
+  border-radius: 5px;
+  padding: 0.1rem;
+}
+
+tr > td:nth-child(1) {
+  font-weight: 600;
+}
+
+td > a {
+  color: #fff;
+  font-family: "Cairo", sans-serif;
+}
+
+.total_parent {
+  display: flex;
+  padding: 3rem;
+  font-size: 24px;
+  gap: 1rem;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+select {
+  appearance: none;
+  border: none;
+  border-radius: 0.5vmax;
+  padding: 0.8rem 1rem;
+  background-color: #5d950e;
+  text-align: right;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  width: fit-content;
+  transition: 0.2s background;
+}
+
+select:hover {
+  background: #4b7b08;
+}
+
+.order_it {
+  background: #5d950e;
+  border: none;
+  border-radius: 0.5vmax;
+  width: 12rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s background;
+}
+
+.order_it {
+  background: #7aae32;
+  text-align: right;
+  border: none;
+  border-radius: 5px;
+  width: 12rem;
+  height: 2rem;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.attached_items_parent {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+}
+.attached_items_parent > span {
+  background: #7aae32;
+  text-align: right;
+  border: none;
+  border-radius: 5px;
+  margin: 0.2rem;
+  padding: 0.3rem;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.order_it:hover {
+  background: #4b7b08;
+}
+
+/* -------------------Resposive----------------------------- */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 0 2rem;
+  }
+
+  main {
+    padding: 0 1rem;
+  }
+
+  header > nav > i {
+    display: block !important;
+  }
+
+  header > nav > ul {
+    display: none;
+    position: absolute;
+    width: fit-content;
+    flex-direction: column;
+    background: #212121;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 5rem 2rem 0rem 2rem;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  header > nav > ul > i {
+    font-size: 1.5rem;
+    margin-top: -3rem;
+    margin-right: -5rem;
+    margin-bottom: 1rem;
+    display: block !important;
+    color: #5d950e;
+    cursor: pointer;
+  }
+}
+
+/* ------------------------------------- */
+@media only screen and (max-width: 550px) {
+  body {
+    background: #2d2e32;
+  }
+
+  main {
+    padding: 0.1rem 1rem;
+  }
+
+  table {
+    font-size: 0.8rem;
+    border-collapse: collapse;
+    /* height: 100vh; */
+  }
+
+  th,
+  td {
+    height: 3.5rem;
+    /* background: red; */
+  }
+
+  tr > td:nth-child(1) {
+    font-weight: normal;
+  }
+
+  .total_parent {
+    font-size: 1.2rem;
+  }
+
+  select {
+    font-size: 0.8rem;
+    width: fit-content;
+    height: 2rem;
+    padding: 0.3rem 1rem;
+  }
+
+  .order_it {
+    width: 8rem;
+    height: 2.5rem;
+    display: flex;
+    font-size: 1rem;
+  }
+}
+
+/* ------------------------------------- */
+@media only screen and (max-width: 321px) {
+  table {
+    font-size: 0.8rem;
+    border-collapse: collapse;
+    /* height: 100vh; */
+  }
+
+  th,
+  td {
+    height: 3rem;
+    font-size: 0.7rem;
+  }
+
+  tr > td:nth-child(1) {
+    font-weight: normal;
+  }
+
+  .total_parent {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .total_parent > div {
+    text-align: center;
+  }
+
+  select {
+    font-size: 0.7rem;
+    width: fit-content;
+    height: 1.5rem;
+    padding: 0.3rem 0.3rem;
+  }
+
+  .order_it {
+    width: 8rem;
+    height: 2.5rem;
+    display: flex;
+    font-size: 1rem;
+  }
+
+  header > nav > ul > li > a {
+    font-size: 1rem;
+  }
+
+  header > nav > ul > i {
+    margin-left: -2.2rem;
+  }
+}

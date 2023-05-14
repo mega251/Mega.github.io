@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/icon.png" style="width: max-content;height: max-content;">
+    <!-- css file -->
+    <link rel="stylesheet" href="/styles/contact.css" />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- toastify -->
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+
+    <!-- axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/82531a8705.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>کاڵاکان</title>
+  </head>
+
+  <body>
+    <!-- --------------- Main --------------- -->
+    <section class="contact">
+      <img class="contact_img" src="/images/contact-us.svg" />
+      <div class="form_parent">
+        <h1>پەیوەندی بکە</h1>
+        <ul>
+          <li>
+            ناونیشان: سلێمانی - مەولەوی<i class="fa-solid fa-location-dot"></i>
+          </li>
+          <li>megatechx4@gmail.com<i class="fa-solid fa-envelope"></i></li>
+          <li>
+            0750 123456789 - 0770 123456789<i class="fa-solid fa-phone"></i>
+          </li>
+        </ul>
+        <form id="contactForm">
+          <input id="name" required placeholder="ناو" type="text" />
+          <input id="email" required placeholder="ئیمەیڵ" type="email" />
+          <textarea id="note" placeholder="...نامەکەت"></textarea>
+          <button style="cursor: pointer" type="submit">ناردن</button>
+        </form>
+      </div>
+    </section>
+    <!-- ---------Footer-------- -->
+    <footer></footer>
+    <script src="/js/main.js"></script>
+    <script src="/js/contact.js"></script>
+  </body>
+</html>
